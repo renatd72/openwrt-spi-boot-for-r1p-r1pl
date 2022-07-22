@@ -5,8 +5,8 @@ CONFIG_TARGET_rockchip_armv8spi_DEVICE_xunlong_orangepi-r1-plus-lts=y
 CONFIG_PACKAGE_dnsmasq-full=y
 # CONFIG_LUCI_LANG_zh_Hans is not set
 CONFIG_PACKAGE_luci-app-mwan3=y
-CONFIG_PACKAGE_kmod-ipt-nat6=y
-CONFIG_PACKAGE_kmod-nf-nat6=y
+#CONFIG_PACKAGE_kmod-ipt-nat6  is not set
+#CONFIG_PACKAGE_kmod-nf-nat6 is not set
 CONFIG_PACKAGE_kmod-usb-serial-option=y
 CONFIG_PACKAGE_rt2800-usb-firmware=y
 CONFIG_PACKAGE_kmod-rt2800-usb=y
@@ -16,3 +16,4 @@ CONFIG_PACKAGE_net-tools-route=y
 CONFIG_PACKAGE_kmod-fuse=y
 CONFIG_PACKAGE_sshfs=y
 CONFIG_PACKAGE_openssh-client=y
+CONFIG_PACKAGE_zerotier=y
