@@ -21,7 +21,7 @@ on:
     - cron: 0 0 * * *
 
 env:
-  REPO_URL: https://github.com/walmartshopper/openwrt-orangepi-r1-plus
+  REPO_URL: https://github.com/baiwt/openwrt
   REPO_BRANCH: openwrt-22.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: OrangePi_R1_Plus_LTS_SPI_defconfig
