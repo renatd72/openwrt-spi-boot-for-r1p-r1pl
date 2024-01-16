@@ -22,7 +22,7 @@ on:
 
 env:
   REPO_URL: https://github.com/renatd72/last
-  REPO_BRANCH: openwrt-23.05
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: OrangePi_R1_Plus_LTS_SPI_defconfig
   DIY_P1_SH: diy-part1.sh
