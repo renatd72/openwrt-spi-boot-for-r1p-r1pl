@@ -19,9 +19,9 @@ CONFIG_PACKAGE_openssh-client=y
 #CONFIG_PACKAGE_zerotier
 CONFIG_PACKAGE_openvpn-openssl=y
 CONFIG_PACKAGE_luci-app-openvpn=y
-#CONFIG_PACKAGE_wireguard-tools=
-#CONFIG_PACKAGE_luci-proto-wireguard=
-#CONFIG_PACKAGE_luci-app-wireguard=
-#CONFIG_PACKAGE_kmod-wireguard=
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_luci-app-wireguard=y
+CONFIG_PACKAGE_kmod-wireguard=y
 #CONFIG_PACKAGE_curl=
 #CONFIG_PACKAGE_https-dns-proxy=
